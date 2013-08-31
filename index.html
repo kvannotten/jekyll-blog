@@ -1,0 +1,23 @@
+---
+layout: page
+title: Welcome to my blog!
+---
+
+{% include JB/setup %}
+
+<h3>Intro</h3>
+<p>My name is Kristof and I am a software developer. I love tinkering and automating everything! If I have to do something more than once, it should be automated. </p>
+<p>I wish I could automate the posts on this blog... </p>
+
+<p>These posts will be of various topics, but almost always technical. I want to use this blog somehow as a collection of the little tips and tricks I have gathered over the years, that need a bit more (or less) than just a gist or a git repository.</p>
+
+<h3>My Posts</h3>
+{% for post in site.posts %}
+ <h4>
+		<a href="{{ site.production_url }}{{ post.url }}">
+			<span>{{ post.date | date: "%d %B %Y" }}: </span>
+			
+			<span>{{ post.title }}</span></a>
+ </h4>
+{% endfor %}
+
