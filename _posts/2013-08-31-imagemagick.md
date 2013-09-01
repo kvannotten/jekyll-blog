@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "ImageMagick"
-description: ""
+description: "Automating the watermarking of images"
 category: scripts
-tags: [imagemagick image magick script convert morph]
+tags: [imagemagick image magick script convert morph watermark]
 ---
 
 {% include JB/setup %}
