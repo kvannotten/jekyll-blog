@@ -46,5 +46,7 @@ Anyways, you can find the script down here, feel free to do whatever you like wi
 
 ## The code
 
-<script src="https://gist.github.com/kvannotten/6433327.js"></script>
+<script src="https://gist.github.com/kvannotten/6433327.js">
+	console.log("test");
+</script>
 
